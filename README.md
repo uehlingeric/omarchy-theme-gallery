@@ -2,6 +2,8 @@
 
 25 desktop themes generated entirely by AI using a custom [Claude Code](https://docs.anthropic.com/en/docs/claude-code) slash command. Each theme includes a complete terminal color palette and AI-generated wallpapers — built from nothing but a text description.
 
+![Claude Code Slash Command](https://img.shields.io/badge/Claude_Code_Slash_Command-1E3A8A) ![License: MIT](https://img.shields.io/badge/License-MIT-green)
+
 ## How It Works
 
 ```
@@ -275,7 +277,7 @@ The full slash command definition is in [`omarchy-theme.md`](omarchy-theme.md). 
 ### Dependencies
 
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) with MCP support
-- Image generation MCP server (Gemini via [banana](https://github.com/anthropics/banana))
+- Image generation MCP server (Gemini via [banana-mcp](https://github.com/uehlingeric/banana-mcp))
 - [slim-pro-max](https://github.com/uehlingeric/slim-pro-max) design intelligence skill
 - [Omarchy](https://github.com/getomarchy/omarchy) desktop environment (for theme installation)
 
@@ -294,4 +296,4 @@ The full slash command definition is in [`omarchy-theme.md`](omarchy-theme.md). 
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).
