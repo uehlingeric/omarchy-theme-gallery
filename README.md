@@ -10,7 +10,7 @@
 
 The `/omarchy-theme` command is a Claude Code [custom slash command](https://docs.anthropic.com/en/docs/claude-code/tutorials/custom-slash-commands) that orchestrates a 5-step pipeline:
 
-1. **Design Lookup** — Queries a design intelligence database ([slim-pro-max](https://github.com/euehling/slim-pro-max)) to find a matching visual style and seed color palette
+1. **Design Lookup** — Queries a design intelligence database ([slim-pro-max](https://github.com/uehlingeric/slim-pro-max)) to find a matching visual style and seed color palette
 2. **Color Palette** — Adapts web UI colors into a 23-color terminal palette (ANSI 0–15 + core/selection), enforcing WCAG AA contrast and hue-family correctness
 3. **Wallpaper Generation** — Batch-generates desktop wallpapers via [Gemini image generation](https://ai.google.dev/gemini-api/docs/image-generation) with compositional variety (abstract, landscape, macro, panoramic, minimalist)
 4. **Quality Verification** — Uses Claude's vision to reject wallpapers containing text, UI artifacts, or watermarks
@@ -276,7 +276,7 @@ The full slash command definition is in [`omarchy-theme.md`](omarchy-theme.md). 
 
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) with MCP support
 - Image generation MCP server (Gemini via [banana](https://github.com/anthropics/banana))
-- [slim-pro-max](https://github.com/euehling/slim-pro-max) design intelligence skill
+- [slim-pro-max](https://github.com/uehlingeric/slim-pro-max) design intelligence skill
 - [Omarchy](https://github.com/getomarchy/omarchy) desktop environment (for theme installation)
 
 ### Usage
