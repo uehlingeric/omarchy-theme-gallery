@@ -109,6 +109,8 @@ Execute all steps sequentially without pausing for confirmation. Do NOT use `Ask
 
 **Goal:** Use slim-pro-max to find a matching design style and color palette for the description.
 
+**Fallback:** If `~/.claude/skills/slim-pro-max/` is not installed, skip the searches below and choose the style category, warmth/temperature, and a 17-token seed palette (Primary, Secondary, Accent, Background, Foreground, etc.) yourself from the description, then continue with Step 2 unchanged.
+
 1. **Search for matching style:**
    ```bash
    python3 ~/.claude/skills/slim-pro-max/scripts/search.py "<description keywords>" --domain styles
